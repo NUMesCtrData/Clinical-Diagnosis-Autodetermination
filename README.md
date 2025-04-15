@@ -16,8 +16,10 @@ The function creates standardized diagnosis and domain variables from raw clinic
 It includes logic for internal vs. external data extraction and can optionally retain all individual diagnosis columns or only combined fields.
 
 ### Function Signature
+```
 clin_dx_calc_function(data, preuds3 = FALSE, uds3 = FALSE, uds4 = FALSE, 
                       internal = FALSE, checkbox = FALSE)
+```
 
 ### Dependencies
 This function uses the following R packages:
