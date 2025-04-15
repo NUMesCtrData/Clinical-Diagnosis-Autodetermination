@@ -1,3 +1,15 @@
+# Determine Clinical Diagnosis based on the NACC B4 and D1/D1a forms from a UDS visit. 
+
+# Output is 2 new columns (calc_dx and calc_dx_specify) to indicate the main diagnosis
+# and any specifics for that diagnosis (ex. calc_dx = PPA; calc_dx_specify = Logopenic)
+
+# @param data A dataframe that contains the B4 and D1/D1a variables for participant 
+#   UDS visits (1 row per visit). 
+# Set the preuds3, uds3, and/or uds4 = TRUE for each type of UDS version
+#   that exists in the data. 
+# Set checkbox = TRUE if you would like each diagnosis column to remain in the 
+#   dataframe instead of removing them after collapsing to create calc_dx and calc_dx_specify.
+
 # FUNCTION
 clin_dx_calc_function <- function(data, preuds3=FALSE, uds3=FALSE, uds4=FALSE, 
                                   internal=FALSE, checkbox=FALSE){
