@@ -28,6 +28,10 @@ This function uses the following R packages:
   - tidyr
 
 Make sure to install them if not already.
+```
+r
+install.packages(c("dplyr", "stringr", "tidyr"))
+```
 
 ### Inputs
 
@@ -41,7 +45,7 @@ Make sure to install them if not already.
 | checkbox	 | Logical  |   If TRUE, retains all individual diagnosis columns alongside combined ones.  |
 
 ### Outputs
-Returns a modified version of the input octocat/data with added variables:
+Returns a modified version of the input ``` data ``` with added variables:
 
 calc_dx: Unified clinical diagnosis string
 
