@@ -15,28 +15,21 @@ The function creates standardized diagnosis and domain variables from raw clinic
 
 It includes logic for internal vs. external data extraction and can optionally retain all individual diagnosis columns or only combined fields.
 
-Function Signature
-r
-Copy
-Edit
+### Function Signature
 clin_dx_calc_function(data, preuds3 = FALSE, uds3 = FALSE, uds4 = FALSE, 
                       internal = FALSE, checkbox = FALSE)
-Dependencies
+
+### Dependencies
 This function uses the following R packages:
+  - dplyr
+  - stringr
+  - tidyr
 
-dplyr
+Make sure to install them if not already.
 
-stringr
+### Inputs
 
-tidyr
 
-Make sure to install them if not already:
-
-r
-Copy
-Edit
-install.packages(c("dplyr", "stringr", "tidyr"))
-Inputs
 
 Argument	Type	Description
 data	DataFrame	A dataset containing raw clinical variables.
