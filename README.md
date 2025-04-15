@@ -29,6 +29,11 @@ Make sure to install them if not already.
 
 ### Inputs
 
+| Argument  | Type |  Description |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 Argument	      Type	        Description
 data	         DataFrame	    A dataset containing raw UDS clinical research variables.
 preuds3	       Logical	      Flag for using PreUDS3 logic.
