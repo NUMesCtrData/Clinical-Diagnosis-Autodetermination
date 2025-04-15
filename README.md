@@ -17,8 +17,7 @@ It includes logic for internal vs. external data extraction and can optionally r
 
 ### Function Signature
 ```
-clin_dx_calc_function(data, preuds3 = FALSE, uds3 = FALSE, uds4 = FALSE, 
-                      internal = FALSE, checkbox = FALSE)
+clin_dx_calc_function(data, preuds3 = FALSE, uds3 = FALSE, uds4 = FALSE, internal = FALSE, checkbox = FALSE)
 ```
 
 ### Dependencies
@@ -46,26 +45,21 @@ install.packages(c("dplyr", "stringr", "tidyr"))
 ### Outputs
 Returns a modified version of the input ``` data ``` with added variables:
 
-calc_dx: Unified clinical diagnosis string
-
-calc_dx_specify: Extended diagnosis details (if internal = TRUE)
-
-domains: Summary of cognitive/behavioral domains affected
-
-Optionally: All intermediate diagnosis and domain columns (if checkbox = TRUE)
+  - ```calc_dx```: Unified clinical diagnosis string
+  - ```calc_dx_specify```: Extended diagnosis details (if ```internal = TRUE```)
+  - ```domains```: Summary of cognitive/behavioral domains affected
+  - Optionally: All intermediate diagnosis and domain columns (if ```checkbox = TRUE```)
 
 Usage
-r
-Copy
-Edit
+```
 # Load packages
 library(dplyr)
 library(stringr)
 library(tidyr)
 
 # Run the function
-df <- clin_dx_calc_function(data = my_clinical_data, preuds3 = TRUE, uds3 = TRUE, uds4 = TRUE, 
-                            internal = TRUE, checkbox = TRUE)
+df <- clin_dx_calc_function(data = my_clinical_data, preuds3 = TRUE, uds3 = TRUE, uds4 = TRUE, internal = TRUE, checkbox = TRUE)
+```
 Author & License
 Author: [Your Name or Team Name]
 Institution: [Your Organization or Affiliation]
