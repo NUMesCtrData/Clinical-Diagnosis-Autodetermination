@@ -7,15 +7,11 @@ This R function, clin_dx_calc_function, is designed to process and classify clin
 
 The function creates standardized diagnosis and domain variables from raw clinical research data, including:
 
-Dementia subtypes (e.g., Alzheimer's variants, FTD, LBD, PSP, MSA)
-
-Mild Cognitive Impairment (MCI) and subtypes
-
-Subjective Cognitive Decline (SCD) classifications
-
-Primary Progressive Aphasia (PPA) and its subtypes
-
-Functional and behavioral domain impairments (e.g., executive, visuospatial, affect regulation)
+  - Dementia subtypes (e.g., Alzheimer's variants, FTD, LBD, PSP, MSA)
+  - Mild Cognitive Impairment (MCI) and subtypes
+  - Subjective Cognitive Decline (SCD) classifications
+  - Primary Progressive Aphasia (PPA) and its subtypes
+  - Functional and behavioral domain impairments (e.g., executive, visuospatial, affect regulation)
 
 It includes logic for internal vs. external data extraction and can optionally retain all individual diagnosis columns or only combined fields.
 
