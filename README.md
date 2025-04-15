@@ -30,9 +30,13 @@ Make sure to install them if not already.
 ### Inputs
 
 | Argument  | Type |  Description |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| ------------- | ------------- |  ------------- |
+| data | DataFrame  |   A dataset containing raw UDS clinical research variables.  |
+| preuds3	 | Logical  |   Flag for using PreUDS3 logic.  |
+| uds3	 | Logical  |   Flag for using UDS3 logic.  |
+| uds4	 | Logical  |   Flag for using UDS4 logic.  |
+| internal	 | Logical  |   If TRUE, includes additional diagnostic refinements for internal use.  |
+| checkbox	 | Logical  |   If TRUE, retains all individual diagnosis columns alongside combined ones.  |
 
 Argument	      Type	        Description
 data	         DataFrame	    A dataset containing raw UDS clinical research variables.
