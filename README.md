@@ -1,7 +1,7 @@
 # Clinical Diagnosis Calculator
 This R function, clin_dx_calc_function, is designed to process and classify clinical research diagnostic information for cognitive and neurodegenerative syndromes. It supports datasets from PreUDS3, UDS3, and UDS4, and produces derived variables for syndromic diagnoses, clinical subtypes, and cognitive/behavioral domains.
 
-### 💡 Link to Code: https://github.com/NUMesCtrData/Clinical-Diagnosis-Autodetermination/autodetermine_clindx.R
+### 💡 Link to Code: [https://github.com/NUMesCtrData/Clinical-Diagnosis-Autodetermination/autodetermine_clindx.R](https://github.com/NUMesCtrData/Clinical-Diagnosis-Autodetermination/blob/main/autodetermine_clindx.R)
 
 ### 🔧 Purpose
 
